@@ -1,0 +1,161 @@
+/*Diseño del body de la página*/
+	body {
+	margin: 0;
+	padding: 0;
+	font-family:Tahoma, Geneva, sans-serif;
+	background: url("image.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+/*Columna central de la página */   
+   #operacions {
+	border: solid 1px #000000;
+	width:900px;
+	height: 520px;
+	overflow:hidden;
+	background-color:#0B610B;
+	padding: 0;
+	margin-top: 30px;
+	opacity: 0.9;
+	
+	
+
+}
+
+.titulo{
+    text-align:center
+  
+}			
+
+
+/*Etiquete del titulo principal de la página*/
+h1 {
+	margin: 0px 10px 0px 10px;
+	color:#ffffff;
+	font-size:40px;	
+}
+h2 {
+	margin: 0px 10px 0px 10px;
+	color:#170B3B;
+	font-size:60px;	
+}
+/*columna del fondo de la página*/
+ footer {
+	border: solid 1px #000000;
+	width:900px;
+	height: 23px;
+	overflow:hidden;
+	background-color:#2E2EFE;
+	padding: 0;
+	margin-top: 6px;
+	opacity: 0.9;
+}
+/*Lienzo de la pagina "Contenedor de toda la página"*/
+div#div1 {
+	width:960px;
+	height:700px;
+	margin: 0 auto;
+}
+
+
+
+div#busqueda{
+	color:#000;
+	font-size:90%;
+	margin-left: 700px;
+	margin-top: -17px;
+	float:left;
+	
+	}
+
+
+
+/*Es el contenedor de los iconos de inicio o enlaces*/
+/*nav {
+	border: solid 1px #000000;
+	width:900px;
+	height: 23px;
+	overflow:hidden;
+	background-color:#330066;
+	padding: 0;
+	margin-top: 6px;
+}*/
+
+*{
+	padding:0px;
+	margin:0px;
+	}
+
+ul, ol{
+	list-style:none;
+	}
+	
+
+	
+.nav li a {
+	background-color:#000;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 15px; 
+	display:block;
+	}
+
+.nav li a:hover{
+	background-color:#434343;
+
+	}
+	
+.nav > li{
+	float:right;
+	}
+	
+.nav li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+	}
+
+.nav li:hover > ul{
+	display:block;
+	
+	}	
+	
+	
+	
+
+
+		
+		
+
+
+/*Estilo del fondo derechos y contacto*/
+div#copy {
+	font-size:75%;
+	height:30px;
+	width:450px;
+	color:#FFFFFF;
+	margin:0 auto;
+	padding: 5px 15px 4px 15px;
+	border-radius: 5px 5px 0px 0px;
+}
+
+#content{
+	width: 600px;
+	height: 300px;
+	background-color:#000000;
+	color:#000000;
+	margin-left: 130px ;
+    margin-top: 80px;
+	text-align: left;
+	border-radius: 20px;
+	padding: 20px;
+	box-shadow: 0px 0px 30px 10px rgba(0,0,0,0.5);
+	font-size:14px;
+    table-layout: fixed;
+    position:absolute;
+    
+	
+}
+                
+}
